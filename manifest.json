@@ -1,0 +1,11 @@
+{
+  "name": "picture in picture forcer",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "ajouter l'option picture in picture sur toute les video présent sur le site,clicker pour l'activer !",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
