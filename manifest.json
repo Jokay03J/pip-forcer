@@ -1,11 +1,19 @@
 {
   "name": "picture in picture forcer",
-  "action": {},
+  "action": {
+    "default_icon": {
+      "19": "assets/icon19.png",
+      "38": "assets/icon38.png"
+    }
+  },
   "manifest_version": 3,
-  "version": "1.0",
-  "description": "ajouter l'option picture in picture sur toute les video présent sur le site,clicker pour l'activer !",
+  "version": "1.1",
+  "description": "forcer l'option picture in picture sur toute les video présent sur le site,cliquer pour l'activer !",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "assets/icon128.png"
   }
 }
